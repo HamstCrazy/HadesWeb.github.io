@@ -1,0 +1,166 @@
+/*Apologies for the mess. I didn't have the time to arrange & comment the code like the previous page*/
+#info_page
+{
+    background-color: #161723;
+    color: #EEEEEE;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    margin: 0 0;
+    background-image: url("StarBackground.png");
+    background-repeat: no-repeat;
+    background-position: 50% 1%;
+    background-size: 1280px;
+}
+/*This is for the whiteHades Part. No time to create new CSS file, so i used old one*/
+#info_page1
+{
+    background-color: #161723;
+    color: #EEEEEE;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1em;
+    margin: 0 0;
+    background-image: url("White_Star.png");
+    background-repeat: no-repeat;
+    background-position: 50% -40%;
+    background-size: 1280px;
+}
+
+#footer
+{
+    background-image: url("img/planet.jpg");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: 1280px;
+    height:207px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* These are the images*/
+img.faq_stripe
+{
+    max-width:800px;
+    height:auto;
+    width:100%;
+}
+
+#info_page_column
+{
+    margin: 0 auto;
+    width: 95%;
+    max-width: 800px;
+    text-align: center;
+}
+
+#footer_home_link
+{
+    margin: 75px auto 75px auto;
+
+}
+
+#section_header
+{
+    margin: 0 auto;
+    padding-top: 3em;
+}
+
+h1.introtext
+{
+    font-size: 0.9em;
+    margin: 2.6em auto 3.0em;
+    text-align: center;
+    width: 250px;
+    text-shadow: 1px 1px #000000;
+}
+
+h2.title
+{
+    color: #FF4040;
+    font-size: 1.2em;
+    margin: 0 0 1em 0;
+    text-align: left;
+}
+
+p, li
+{
+    color: #EEEEEE;
+    text-align: left;
+}
+
+p + p, li + li { margin-top: 1em; }
+
+a
+{
+    color: #FF4040;
+}
+
+.nowrap {
+  white-space: nowrap ;
+}
+
+table {
+  max-width: 100%;
+}
+
+th {
+  background-color: #151d2e;
+  color: #fff;
+}
+
+th,td {
+  text-align: left;
+  padding: 0.5em 1em;
+  border: 2px solid
+}
+
+input[type=text] {
+  width: 100%;
+  background-color: white;
+  font-size: 1.2em;
+    margin: 0 0 1em 0;
+}
+
+input[type=text]:focus {
+  background-color: lightblue;
+  border: 3px solid #555;
+}
+
+.logo1 img{
+    float: left;
+    width:  225px;
+    height: auto;
+    margin-top: 10px;
+}
+
+ul.Btns{
+    float: right;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul.Btns li.active{
+    display: inline-block;
+}
+
+ul.Btns li.active a.active2{
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    padding: 5px 20px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ul.Btns li.active a.active1{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ul.Btns li.active a.active1:hover{
+    border: 2px solid #c4c4c4;
+    color: #ffff;
